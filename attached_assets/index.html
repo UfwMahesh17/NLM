@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Support Chatbot</title>
+    
+    <!-- Bootstrap CSS (Replit dark theme) -->
+    <link href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h3 class="mb-0">
+                            <i class="fas fa-robot me-2"></i> E-Commerce Support
+                        </h3>
+                    </div>
+                    <div class="card-body">
+                        <div id="chat-container">
+                            <div id="messages" class="mb-3">
+                                <!-- Messages will be added here -->
+                                <div class="message bot">
+                                    <div class="message-content">
+                                        <p>Hello! I'm your e-commerce assistant. How can I help you today? You can ask about products, shipping, returns, payments, or your account.</p>
+                                    </div>
+                                    <span class="badge bg-secondary source-badge">welcome</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Typing indicator -->
+                            <div id="typing-indicator" class="typing-indicator d-none">
+                                <div class="typing-bubble"></div>
+                                <div class="typing-bubble"></div>
+                                <div class="typing-bubble"></div>
+                                <span class="typing-text">Assistant is typing...</span>
+                            </div>
+                            
+                            <!-- Quick reply buttons -->
+                            <div id="quick-reply-container" class="mb-3">
+                                <!-- Quick reply buttons will be added here -->
+                            </div>
+                            
+                            <!-- Message input form -->
+                            <div class="input-group">
+                                <input type="text" id="user-input" class="form-control" placeholder="Type your message here..." autocomplete="off">
+                                <button id="send-button" class="btn btn-primary">
+                                    <i class="fas fa-paper-plane"></i> Send
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center text-muted">
+                        <small>Powered by NLTK and OpenAI | <i class="fas fa-tag"></i> NLTK provides quick answers, while RAG delivers more detailed responses for complex queries.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

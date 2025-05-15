@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURORA - Your E-Commerce AI Assistant</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts - Elegant typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <!-- Subtle animated background -->
+    <div id="aurora-background"></div>
+    
+    <div class="container">
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-8">
+                <div class="card mb-4">
+                    <div class="card-header text-center">
+                        <div class="header-content">
+                            <h1 class="mb-0">
+                                <span class="aurora-logo">AURORA</span>
+                            </h1>
+                            <div class="assistant-subtitle">YOUR E-COMMERCE AI ASSISTANT</div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div id="chat-container">
+                            <div id="messages" class="mb-3">
+                                <!-- Initial welcome message -->
+                                <div class="message bot">
+                                    <div class="message-content">
+                                        <p>Hello, I'm AURORA, your personal e-commerce assistant. How may I help you today? Ask me anything about our products, shipping, returns, payments, or your account.</p>
+                                    </div>
+                                    <span class="badge source-badge">welcome</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Typing indicator -->
+                            <div id="typing-indicator" class="typing-indicator d-none">
+                                <div class="typing-bubble"></div>
+                                <div class="typing-bubble"></div>
+                                <div class="typing-bubble"></div>
+                                <span class="typing-text">AURORA is thinking...</span>
+                            </div>
+                            
+                            <!-- Quick reply buttons -->
+                            <div id="quick-reply-container" class="mb-3">
+                                {% for category in categories %}
+                                    <button type="button" class="btn quick-reply-btn">{{ category }}</button>
+                                {% endfor %}
+                            </div>
+                            
+                            <!-- Message input form -->
+                            <div class="input-group">
+                                <input type="text" id="user-input" class="form-control" placeholder="Enter your query..." autocomplete="off">
+                                <button id="send-button" class="btn btn-primary">
+                                    <i class="fas fa-paper-plane"></i> Send
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center">
+                        <div class="footer-content">
+                            <div class="feature-badge"><i class="fas fa-lock"></i> Secure</div>
+                            <div class="feature-badge"><i class="fas fa-bolt"></i> NLTK</div>
+                            <div class="feature-badge"><i class="fas fa-code"></i> AURORA v1.0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
