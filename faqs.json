@@ -1,0 +1,257 @@
+[
+  {
+    "category": "Products",
+    "question": "What types of products do you sell?",
+    "answer": "We offer a wide range of products including electronics, clothing, home goods, beauty products, and toys. You can browse our full catalog on our website's homepage."
+  },
+  {
+    "category": "Products",
+    "question": "How can I check if an item is in stock?",
+    "answer": "Product availability is indicated on each product page with a green 'In Stock' or red 'Out of Stock' label. You can also see the estimated shipping time based on current inventory levels."
+  },
+  {
+    "category": "Products",
+    "question": "Are your electronics products new or refurbished?",
+    "answer": "Unless specifically marked as 'Refurbished' or 'Open Box', all our electronics are brand new. Refurbished items undergo thorough testing and come with a special warranty."
+  },
+  {
+    "category": "Products",
+    "question": "Do you sell internationally recognized brands?",
+    "answer": "Yes, we carry many popular international brands as well as high-quality products from local manufacturers. Brand information is clearly displayed on each product page."
+  },
+  {
+    "category": "Products",
+    "question": "How do I find the product specifications?",
+    "answer": "Detailed specifications can be found in the 'Specifications' tab on each product page. For electronics, we provide comprehensive technical details."
+  },
+  {
+    "category": "Products",
+    "question": "Do you offer product warranties?",
+    "answer": "Most products come with manufacturer warranties. The warranty period is listed on the product page under 'Warranty Information'. Extended warranties are available for select items."
+  },
+  {
+    "category": "Products",
+    "question": "Can I get notified when an out-of-stock item becomes available?",
+    "answer": "Yes! Click the 'Notify Me' button on any out-of-stock product page, and we'll email you when the item is back in stock."
+  },
+  {
+    "category": "Products",
+    "question": "How do I check product reviews?",
+    "answer": "Product reviews can be found by scrolling down on any product page. We display verified purchase reviews with ratings out of 5 stars."
+  },
+  {
+    "category": "Products",
+    "question": "Do you sell eco-friendly products?",
+    "answer": "Yes, we have a growing collection of eco-friendly products. Look for the 'Eco-Friendly' badge on product listings or filter by this category in our search."
+  },
+  {
+    "category": "Products",
+    "question": "How do your product quality control measures work?",
+    "answer": "All products undergo quality inspection before shipping. We work directly with manufacturers to ensure products meet our standards and comply with safety regulations."
+  },
+  {
+    "category": "Shipping",
+    "question": "How much does shipping cost?",
+    "answer": "Shipping costs vary based on location and order size. Orders over $50 qualify for free standard shipping within the continental US. Exact shipping costs are calculated at checkout."
+  },
+  {
+    "category": "Shipping",
+    "question": "How long will it take to receive my order?",
+    "answer": "Standard shipping typically takes 3-5 business days. Express shipping (1-2 business days) is available for an additional fee. International shipping ranges from 7-14 business days depending on the destination."
+  },
+  {
+    "category": "Shipping",
+    "question": "Do you ship internationally?",
+    "answer": "Yes, we ship to most countries worldwide. International shipping rates and delivery times are calculated at checkout. Please note that customs fees may apply and are the responsibility of the recipient."
+  },
+  {
+    "category": "Shipping",
+    "question": "How can I track my order?",
+    "answer": "Once your order ships, you'll receive a tracking number via email. You can also view tracking information in your account under 'Order History'."
+  },
+  {
+    "category": "Shipping",
+    "question": "What shipping carriers do you use?",
+    "answer": "We primarily ship via UPS, FedEx, and USPS depending on your location and the shipping method selected. International orders typically ship via DHL or FedEx International."
+  },
+  {
+    "category": "Shipping",
+    "question": "My tracking information hasn't updated. What should I do?",
+    "answer": "Tracking information may take 24-48 hours to update after shipping. If you haven't seen updates after 2 business days, please contact our customer service team with your order number."
+  },
+  {
+    "category": "Shipping",
+    "question": "Can I change my shipping address after placing an order?",
+    "answer": "Address changes may be possible if the order hasn't been processed yet. Please contact customer service immediately with your order number to request a change."
+  },
+  {
+    "category": "Shipping",
+    "question": "Do you offer expedited shipping?",
+    "answer": "Yes, we offer expedited shipping options at checkout. Depending on your location, you can choose Next Day Air or 2-Day shipping for most products."
+  },
+  {
+    "category": "Shipping",
+    "question": "Do you ship to PO boxes?",
+    "answer": "We can ship to PO boxes for orders shipped via USPS. However, UPS and FedEx deliveries require a physical address."
+  },
+  {
+    "category": "Shipping",
+    "question": "What happens if I'm not home when my package arrives?",
+    "answer": "Delivery procedures vary by carrier. Most packages don't require signatures and will be left at your door. For valuable items requiring signatures, carriers typically leave a notice and attempt redelivery."
+  },
+  {
+    "category": "Returns",
+    "question": "What's your return policy?",
+    "answer": "Most items can be returned within 30 days of delivery for a full refund or exchange. The product must be in original condition with all packaging. Some products have special return restrictions noted on their product pages."
+  },
+  {
+    "category": "Returns",
+    "question": "How do I start a return?",
+    "answer": "To initiate a return, go to 'Order History' in your account, select the order, and click 'Return Items'. Follow the instructions to generate a return shipping label and packing slip."
+  },
+  {
+    "category": "Returns",
+    "question": "Do I have to pay for return shipping?",
+    "answer": "For standard returns, customers are responsible for return shipping costs unless the return is due to our error (damaged, defective, or incorrect item). Free return shipping is available for premium members."
+  },
+  {
+    "category": "Returns",
+    "question": "How long does it take to process a refund?",
+    "answer": "Once we receive your return, it takes 1-2 business days to inspect the item and process the refund. Your bank may take an additional 3-7 business days to post the refund to your account."
+  },
+  {
+    "category": "Returns",
+    "question": "Can I exchange an item instead of returning it?",
+    "answer": "Yes, the return process allows you to select either a refund or an exchange. For exchanges, you can specify the desired replacement (size, color, or different item)."
+  },
+  {
+    "category": "Returns",
+    "question": "What items cannot be returned?",
+    "answer": "Personal hygiene products, undergarments, food items, customized products, and downloadable digital content cannot be returned. Gift cards are non-returnable but never expire."
+  },
+  {
+    "category": "Returns",
+    "question": "What if I received a damaged or defective item?",
+    "answer": "Please contact us within 48 hours of delivery with photos of the damage. We'll arrange a free return and expedite a replacement. Defective items can be reported within the warranty period."
+  },
+  {
+    "category": "Returns",
+    "question": "Can I return a gift?",
+    "answer": "Yes, gifts can be returned for store credit without notifying the gift giver. Use the gift receipt or order number to initiate the return process online or contact customer service."
+  },
+  {
+    "category": "Returns",
+    "question": "What is your holiday return policy?",
+    "answer": "For purchases made between November 1 and December 24, the 30-day return period begins on December 25 to accommodate holiday gifts."
+  },
+  {
+    "category": "Returns",
+    "question": "Do you offer free return shipping?",
+    "answer": "Free return shipping is provided for Premium members, defective items, or if we sent the wrong item. Otherwise, return shipping costs are deducted from your refund."
+  },
+  {
+    "category": "Payments",
+    "question": "What payment methods do you accept?",
+    "answer": "We accept all major credit cards (Visa, Mastercard, American Express, Discover), PayPal, Apple Pay, Google Pay, and our store-branded credit card. For Indian customers, we also accept UPI payments (including PhonePe, Google Pay, Paytm), net banking, and RuPay cards. All prices are displayed in INR (₹) for Indian customers. Select items may be eligible for financing options."
+  },
+  {
+    "category": "Payments",
+    "question": "Is it safe to use my credit card on your website?",
+    "answer": "Yes, our website uses SSL encryption to protect your payment information. We are PCI-DSS compliant and never store your full credit card details on our servers."
+  },
+  {
+    "category": "Payments",
+    "question": "When will my credit card be charged?",
+    "answer": "Your credit card is authorized when you place an order but only charged when your order ships. For pre-orders or backordered items, you'll only be charged when the product ships."
+  },
+  {
+    "category": "Payments",
+    "question": "Do you offer installment payments or financing?",
+    "answer": "Yes, we offer financing through Affirm and Klarna for orders over $100. For Indian customers, we provide EMI options through major banks like HDFC, ICICI, SBI, and Axis Bank for purchases over ₹3,000. No-cost EMI is available on select products for 3, 6, and 9-month tenures. You can select these options at checkout. Credit approval is required."
+  },
+  {
+    "category": "Payments",
+    "question": "Can I use multiple payment methods for a single order?",
+    "answer": "Currently, we can only process one payment method per order. However, you can use gift cards in combination with another payment method."
+  },
+  {
+    "category": "Payments",
+    "question": "How do I redeem a gift card?",
+    "answer": "Enter your gift card code in the designated field during checkout. The gift card amount will be applied to your order total. Any remaining balance will stay on your gift card for future use."
+  },
+  {
+    "category": "Payments",
+    "question": "What currency do you charge in?",
+    "answer": "For customers in India, all prices are listed and charged in Indian Rupees (₹). For other regions, prices are listed in US Dollars. Depending on your location, you'll automatically see prices in your local currency. International customers may see currency conversion fees from their credit card companies."
+  },
+  {
+    "category": "Payments",
+    "question": "Do you charge sales tax?",
+    "answer": "We collect sales tax in states where we have a physical presence or as required by state laws. For Indian customers, we charge GST (Goods and Services Tax) at the applicable rate as per Indian tax regulations. GST invoices with your GSTIN (if provided) are available for business purchases. The applicable tax is calculated during checkout based on your shipping address."
+  },
+  {
+    "category": "Payments",
+    "question": "What should I do if I see an unauthorized charge?",
+    "answer": "If you see an unrecognized charge from our company, please contact our customer service immediately. We can verify if the charge is legitimate and assist with any concerns."
+  },
+  {
+    "category": "Payments",
+    "question": "Do you offer discounts for bulk orders?",
+    "answer": "Yes, bulk order discounts are available for qualifying purchases. Please contact our business sales team at business@example.com for a custom quote."
+  },
+  {
+    "category": "Payments",
+    "question": "What payment methods do you accept for Indian customers?",
+    "answer": "For our Indian customers, we accept all major UPI payment methods including PhonePe, Google Pay (GPay), BHIM UPI, Paytm, and Amazon Pay. We also accept net banking from all major Indian banks, credit and debit cards (including RuPay), and EMI options through select banks. All transactions are processed in Indian Rupees (₹)."
+  },
+  {
+    "category": "Account",
+    "question": "How do I create an account?",
+    "answer": "Click 'Sign Up' at the top right of our website and fill out the registration form with your email and a secure password. You can also sign up using your Google or Facebook account for faster access."
+  },
+  {
+    "category": "Account",
+    "question": "I forgot my password. How do I reset it?",
+    "answer": "Click 'Login' at the top of the page, then select 'Forgot Password.' Enter your email address, and we'll send you a link to create a new password. The link expires after 24 hours for security reasons."
+  },
+  {
+    "category": "Account",
+    "question": "How do I update my account information?",
+    "answer": "Once logged in, go to 'My Account' and select 'Profile' or 'Account Settings.' Here you can update your contact information, change your password, and manage communication preferences."
+  },
+  {
+    "category": "Account",
+    "question": "Can I have multiple shipping addresses saved?",
+    "answer": "Yes, you can save multiple shipping addresses in your account. In 'My Account,' select 'Addresses' to add, edit, or remove shipping destinations. You can also set a default address for faster checkout."
+  },
+  {
+    "category": "Account",
+    "question": "How do I view my order history?",
+    "answer": "Your complete order history is available in your account under 'Order History.' You can view details of past purchases, track current orders, and initiate returns for recent orders."
+  },
+  {
+    "category": "Account",
+    "question": "How do I delete my account?",
+    "answer": "To delete your account, please contact our customer service team. For security reasons, account deletion requests must be verified through the email associated with your account."
+  },
+  {
+    "category": "Account",
+    "question": "What happens to my data when I delete my account?",
+    "answer": "When you delete your account, your personal information is removed from our systems as per our Privacy Policy. Order history is retained for legal and accounting purposes but is disassociated from your personal details."
+  },
+  {
+    "category": "Account",
+    "question": "How can I subscribe or unsubscribe from emails?",
+    "answer": "You can manage email preferences in 'My Account' under 'Communication Preferences.' You can also unsubscribe directly from any marketing email by clicking the 'Unsubscribe' link at the bottom."
+  },
+  {
+    "category": "Account",
+    "question": "Is my personal information secure?",
+    "answer": "Yes, we use industry-standard security measures to protect your data. We employ SSL encryption for all transactions and never share your information with third parties without your consent. You can review our Privacy Policy for more details."
+  },
+  {
+    "category": "Account",
+    "question": "What are the benefits of creating an account?",
+    "answer": "With an account, you can track orders, save favorite products, access faster checkout with saved payment methods and addresses, receive personalized recommendations, and earn rewards points. Registered users also receive exclusive offers and early access to sales."
+  }
+]
